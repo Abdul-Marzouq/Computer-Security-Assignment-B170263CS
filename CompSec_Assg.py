@@ -11,7 +11,6 @@ def mod_mul_inverse(x, n):
 		t = t1-(q*t2)
 		t1 = t2
 		t2 = t
-		print(q,r1,r2,r,t1,t2,t)
 	if r1 == 1:
 		if t1>=0:
 			return t1
